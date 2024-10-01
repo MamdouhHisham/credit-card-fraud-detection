@@ -11,7 +11,7 @@
 
 This project focuses on detecting fraudulent transactions in credit card data using various machine learning algorithms. The goal is to build a model that can effectively classify legitimate and fraudulent transactions, while addressing the issue of imbalanced datasets. Techniques such as SMOTE and Random Under-Sampling are applied to balance the class distribution.
 
-![Credit Card Fraud]([https://www.example-image-url.com/fraud-image.jpeg](https://www.usatoday.com/money/blueprint/images/uploads/2023/09/20041937/GettyImages-1271123246-e1695198030910.jpg?width=700&fit=cover&format=webp))
+![Credit Card Fraud](https://cdn.prod.website-files.com/5fbe376a36d4106214faaf3c/62200f9fbd736d0bb2002721_20220302-Credit%20Card%20Fraud%20Detection_Blog%20Thumbnail%20Image.png)
 
 ## Data Description
 
@@ -57,20 +57,13 @@ The models are evaluated using the following metrics, focusing on their ability 
 
 Below are the evaluation results for the final models:
 
-- **Random Forest**:
-  - **Train F1-Score**: 0.97
-  - **Validation F1-Score**: 0.82
-  - **Validation ROC AUC**: 0.95
-  - **Validation PR AUC**: 0.91
+Note:
 
-- **Logistic Regression**:
-  - **Train F1-Score**: 0.94
-  - **Validation F1-Score**: 0.79
-  - **Validation ROC AUC**: 0.91
-  - **Validation PR AUC**: 0.88
+- The optimal threshold calculated by finding highest F1-score and it's threshold **in training data only**.
 
-- **Neural Network**:
-  - **Train F1-Score**: 0.95
-  - **Validation F1-Score**: 0.80
-  - **Validation ROC AUC**: 0.93
-  - **Validation PR AUC**: 0.89
+![](plots/heatmap.png)
+![](plots/F1.png)
+![](plots/LR.png)
+![](plots/NT.png)
+![](plots/RF.png)
+
