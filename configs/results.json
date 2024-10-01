@@ -1,0 +1,50 @@
+{
+    "Random forest": {
+        "F1-score positive class": 0.82,
+        "Precision positive class": 0.86,
+        "Recall positive class": 0.79,
+        "F1-score macro avg": 0.91,
+        "ROC-AUC": 0.93,
+        "PR-AUC": 0.69
+    },
+    "Random forest with optimal threshold": {
+        "F1-score positive class": 0.83,
+        "Precision positive class": 0.88,
+        "Recall positive class": 0.80,
+        "F1-score macro avg": 0.92,
+        "ROC-AUC": 0.94,
+        "PR-AUC": 0.73
+    },
+    "Logistic regression": {
+        "F1-score positive class": 0.67,
+        "Precision positive class": 0.56,
+        "Recall positive class": 0.83,
+        "F1-score macro avg": 0.12,
+        "ROC-AUC": 0.97,
+        "PR-AUC": 0.76
+    },
+    "Logistic regression with optimal threshold": {
+        "F1-score positive class": 0.82,
+        "Precision positive class": 0.82,
+        "Recall positive class": 0.81,
+        "F1-score macro avg": 0.91,
+        "ROC-AUC": 0.97,
+        "PR-AUC": 0.76
+    },
+    "Neural network": {
+        "F1-score positive class": 0.76,
+        "Precision positive class": 0.87,
+        "Recall positive class": 0.68,
+        "F1-score macro avg": 0.88,
+        "ROC-AUC": 0.96,
+        "PR-AUC": 0.75
+    },
+    "Neural network with optimal threshold": {
+        "F1-score positive class": 0.85,
+        "Precision positive class": 0.87,
+        "Recall positive class": 0.83,
+        "F1-score macro avg": 0.92,
+        "ROC-AUC": 0.96,
+        "PR-AUC": 0.75
+    }
+}
